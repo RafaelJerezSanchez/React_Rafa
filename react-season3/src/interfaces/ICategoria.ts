@@ -1,4 +1,4 @@
 export interface ICategoria {
     name: string;
-    logo?: string;
+    valor: number;
 }

@@ -8,13 +8,21 @@
 .tittle{
   text-align: center;
   font-size: 45px;
+  -webkit-text-stroke: 2px rgb(142, 131, 248);
+  color: rgb(144, 235, 241);
 }
 body{
-  background-color:#fff01e;
+  background-image: url(https://adnfriki.com/wp-content/uploads/2012/09/fondos-android-pikachu-3.jpg);
+  background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
 }
 a{
-  color: blue;
+  color: yellow;
   font-weight: 600px;
+  background-color: rgb(7, 207, 114);
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .MuiPaper-root{
