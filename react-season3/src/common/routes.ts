@@ -18,17 +18,17 @@ export const routes: Route[] = [
     {
         path: 'contacto',
         component: ContactoPage,
-        name: 'Contacto'
+        name: 'Tipo Fuego'
     },
     {
         path: 'formacion',
         component: FormacionPage,
-        name: 'Formacion'
+        name: 'Tipo Agua'
     },
     {
         path: 'proyectos',
         component: ProyectosPage,
-        name: 'Proyectos'
+        name: 'Tipo Lucha'
     },
     {
         path: 'servicios',
@@ -43,6 +43,6 @@ export const routes: Route[] = [
     {
         path: 'productos',
         component: Productos,
-        name: 'Productos'
+        name: 'Crea un Pokemon'
     }
 ];
