@@ -1,0 +1,72 @@
+.pl1{
+     background: rgb(34,195,149);
+background: linear-gradient(0deg, rgba(34,195,149,0.9710084717480743) 0%, rgba(138,62,29,1) 100%);  
+   margin-bottom: 20px;
+   border-radius: 10px;
+   height: 600px;
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+}
+
+.pl2{
+     background: rgb(34,195,149);
+background: linear-gradient(0deg, rgba(34,195,149,0.9710084717480743) 0%, rgba(138,62,29,1) 100%);  
+   margin-bottom: 20px;
+   border-radius: 10px;
+   height: 600px;
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   margin-right: 20px;
+}
+
+.pl3{
+     background: rgb(34,195,149);
+background: linear-gradient(0deg, rgba(34,195,149,0.9710084717480743) 0%, rgba(138,62,29,1) 100%);  
+   margin-bottom: 20px;
+   border-radius: 10px;
+   height: 600px;
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+}
+
+.pl4{
+     background: rgb(34,195,149);
+background: linear-gradient(0deg, rgba(34,195,149,0.9710084717480743) 0%, rgba(138,62,29,1) 100%);  
+   margin-bottom: 20px;
+   border-radius: 10px;
+   height: 600px;
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+}
+
+.PokemonsLucha{
+   /* width: 500vh; */
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   flex-wrap: wrap;
+}
+.PokemonsLucha img{
+   width: 500px;
+   height: 500px;
+}
+
+.containerrafa{
+   display: flex;
+   flex-wrap: wrap;
+}

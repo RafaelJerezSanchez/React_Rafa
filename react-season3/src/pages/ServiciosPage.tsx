@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
+import './ServiciosEstilos.css'
 
 export const ServiciosPage = () => {
   const [pokemons, setPokemons] = useState([])
@@ -14,13 +15,13 @@ export const ServiciosPage = () => {
   return (
     <>
       <h1 className='tittle'>POKEDEX</h1>
-      <ul>
+      <div>
         {
           pokemons.map(({ name, url }) => (
             <li>{name}</li>
           ))
         }
-      </ul>
+      </div>
     </>
   )
 }

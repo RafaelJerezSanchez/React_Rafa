@@ -5,18 +5,23 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { Suspense } from 'react';
+import { FirebaseAppProvider } from 'reactfire';
+import firebaseConfig from './firebase/config/firebaseConfig';
 
+  const root = ReactDOM.createRoot(
+    document.getElementById('root') as HTMLElement
+  );
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
 root.render(
   
-    <Suspense fallback={<p>Cargando...</p>}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </Suspense>
+        <FirebaseAppProvider firebaseConfig={ firebaseConfig }>
+            <Suspense fallback={<p>Cargando...</p>}>
+                <BrowserRouter>
+                <App/>
+                </BrowserRouter>
+            </Suspense>
+        </FirebaseAppProvider>
+    
   
 );
 
