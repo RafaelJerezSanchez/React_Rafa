@@ -9,3 +9,6 @@
     background-color: aqua;
 }
 
+.opcion:nth-child(7) {
+    display: none;
+}

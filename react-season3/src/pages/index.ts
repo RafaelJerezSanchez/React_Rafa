@@ -1,7 +1,7 @@
-export { ContactoPage } from "./ContactoPage";
-export { FormacionPage } from "./FormacionPage";
+export { PageFuego } from "./PageFuego";
+export { PageAgua } from "./PageAgua";
 export { HomePage } from "./HomePage";
-export { ProyectosPage } from "./ProyectosPage";
+export { PageLucha } from "./PageLucha";
 export { ServiciosPage } from "./ServiciosPage";
 export { SesionPage } from "./SesionPage";
 export { Productos } from "./Productos";

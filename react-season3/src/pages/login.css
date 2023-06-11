@@ -1,0 +1,14 @@
+.logincaja{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.445);
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    right: -40%;
+}
+
+.caja2{
+    background-color: blue;
+    width: 100%;
+}   

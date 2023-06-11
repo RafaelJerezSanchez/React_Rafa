@@ -1,76 +1,29 @@
-.pa1{
- background: rgb(34,155,195);
-background: linear-gradient(0deg, rgba(34,155,195,0.9710084717480743) 0%, rgba(218,184,20,1) 100%);  
-   margin-bottom: 20px;
-   border-radius: 10px;
-   height: 600px;
-   width: 40%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 30px;
+.p2{
+   background: rgb(34,155,195);
+background: linear-gradient(0deg, rgba(34,155,195,0.9710084717480743) 0%, rgba(218,184,20,1) 100%); 
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 700px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  flex-direction: column;
 }
 
-.pa2{
- background: rgb(34,155,195);
-background: linear-gradient(0deg, rgba(34,155,195,0.9710084717480743) 0%, rgba(218,184,20,1) 100%);  
-   margin-bottom: 20px;
-   border-radius: 10px;
-   height: 600px;
-   width: 40%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 30px;
-   margin-right: 20px;
+.p2 p{
+  text-align: center;
 }
 
-.pa3{
- background: rgb(34,155,195);
-background: linear-gradient(0deg, rgba(34,155,195,0.9710084717480743) 0%, rgba(218,184,20,1) 100%);  
-   margin-bottom: 20px;
-   border-radius: 10px;
-   height: 600px;
-   width: 40%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 30px;
+.poki{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-.pa4{
- background: rgb(34,155,195);
-background: linear-gradient(0deg, rgba(34,155,195,0.9710084717480743) 0%, rgba(218,184,20,1) 100%);  
-   margin-bottom: 20px;
-   border-radius: 10px;
-   height: 600px;
-   width: 40%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 30px;
-}
-
-.PokemonsAgua{
-   /* width: 500vh; */
-   display: flex;
-   flex-direction: row;
-   gap: 20px;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
-   flex-wrap: wrap;
-}
-.PokemonsAgua img{
-   width: 500px;
-   height: 500px;
-}
-
-.containerrafa{
-   display: flex;
-   flex-wrap: wrap;
-}
-
-img{
-   height: 400px;
+h1#NewCat{
+  text-align: center;
 }

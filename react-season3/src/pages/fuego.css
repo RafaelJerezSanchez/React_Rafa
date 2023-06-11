@@ -3,70 +3,27 @@
 background: linear-gradient(0deg, rgba(193,195,34,1) 0%, rgba(253,130,45,1) 100%); 
     margin-bottom: 20px;
     border-radius: 10px;
-    height: 600px;
-    width: 40%;
+    height: 700px;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    flex-direction: column;
 }
 
-.p2{
-     background: rgb(193,195,34);
-background: linear-gradient(0deg, rgba(193,195,34,1) 0%, rgba(253,130,45,1) 100%); 
-    margin-bottom: 20px;
-    border-radius: 10px;
-    height: 600px;
-    width: 40%;
+.p1 p{
+    text-align: center;
+}
+
+.poki{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
-    margin-right: 20px;
-}
-
-.p3{
-     background: rgb(193,195,34);
-background: linear-gradient(0deg, rgba(193,195,34,1) 0%, rgba(253,130,45,1) 100%); 
-    margin-bottom: 20px;
-    border-radius: 10px;
-    height: 600px;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-}
-
-.p4{
-     background: rgb(193,195,34);
-background: linear-gradient(0deg, rgba(193,195,34,1) 0%, rgba(253,130,45,1) 100%); 
-    margin-bottom: 20px;
-    border-radius: 10px;
-    height: 600px;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-}
-
-.PokemonsFuego{
-    /* width: 500vh; */
-    display: flex;
-    flex-direction: row;
     gap: 20px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-}
-.PokemonsFuego img{
-    width: 500px;
-    height: 500px;
 }
 
-.containerrafa{
-    display: flex;
-    flex-wrap: wrap;
+h1#NewCat{
+    text-align: center;
 }

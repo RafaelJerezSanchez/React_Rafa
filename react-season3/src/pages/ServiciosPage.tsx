@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
 import './ServiciosEstilos.css'
+import { ClassNames } from '@emotion/react'
 
 export const ServiciosPage = () => {
   const [pokemons, setPokemons] = useState([])
@@ -15,13 +16,20 @@ export const ServiciosPage = () => {
   return (
     <>
       <h1 className='tittle'>POKEDEX</h1>
-      <div>
-        {
-          pokemons.map(({ name, url }) => (
-            <li>{name}</li>
-          ))
-        }
-      </div>
+      <ul>
+        <div className="menupoke">
+
+          {
+            pokemons.map(({ name, url}, index ) => (
+              <div className='objeto'>
+                <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index+1}.png`} className='pokefoto' alt="" />
+                <p>{name} - {index + 1}</p>
+              </div>
+            ))
+          }
+        </div>
+      </ul>
     </>
   )
+
 }

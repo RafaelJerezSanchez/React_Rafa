@@ -1,4 +1,4 @@
-import { ContactoPage, HomePage, FormacionPage, ProyectosPage, ServiciosPage, SesionPage, Productos } from "../pages/index";
+import { PageFuego, HomePage, PageLucha, ServiciosPage, SesionPage, Productos, PageAgua } from "../pages/index";
 
 type JSXComponent = () => JSX.Element;
 
@@ -16,22 +16,22 @@ export const routes: Route[] = [
         name: 'Home'
     },
     {
-        path: 'contacto',
-        component: ContactoPage,
+        path: 'fuego',
+        component: PageFuego,
         name: 'Tipo Fuego'
     },
     {
-        path: 'formacion',
-        component: FormacionPage,
+        path: 'agua',
+        component: PageAgua,
         name: 'Tipo Agua'
     },
     {
-        path: 'proyectos',
-        component: ProyectosPage,
+        path: 'lucha',
+        component: PageLucha,
         name: 'Tipo Lucha'
     },
     {
-        path: 'servicios',
+        path: 'pokedex',
         component: ServiciosPage,
         name: 'Pokedex'
     },
@@ -41,7 +41,7 @@ export const routes: Route[] = [
         name: 'Login'
     },
     {
-        path: 'productos',
+        path: 'addpoke',
         component: Productos,
         name: 'Añade tu Pokemon'
     }
