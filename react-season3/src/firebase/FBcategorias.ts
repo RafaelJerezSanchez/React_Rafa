@@ -81,6 +81,7 @@ export const newPoke = async (data: IPokemon) => {
     }
 }
 
+// Esto de abajo NO
 // export const getCategorias = async ():Promise<ICategoria[]> => {
 //     let categorias: ICategoria[] = []; //array inicializado al vacio
 //     // const categoriasRef = collection(useFirestore(), "Categorias") //seleccionamos la coleccion categorias
